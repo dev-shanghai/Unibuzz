@@ -17,17 +17,42 @@ Copyright © 2019 Al Anbar. All rights reserved.
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegate {
 
 	var window: UIWindow?
-
+	var tabBar: UITabBarController?
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
+
+
+		Thread.sleep(forTimeInterval: 1.0)
+		IQKeyboardManager.shared.enable = true
+
+
+		let tabBar = Utility.systemStyle()
+
+		tabBar.delegate = self
+		self.tabBar = tabBar
+
+		let navController = UINavigationController(rootViewController: tabBar)
+		navController.navigationBar.isHidden = true
+		self.window = UIWindow(frame: UIScreen.main.bounds)
+		self.window?.rootViewController = navController
+		self.window?.makeKeyAndVisible()
+
 		return true
 	}
+
+	// MARK: - UITabbarDelegate
+	func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+
+
+	}
+
 
 	func applicationWillResignActive(_ application: UIApplication) {
 		// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

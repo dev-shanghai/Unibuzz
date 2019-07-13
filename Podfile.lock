@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.8.2)
+  - ESTabBarController-swift (2.7)
+  - FaveButton (3.2.0)
+  - IQKeyboardManagerSwift (6.0.4)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ReachabilitySwift (4.3.1)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SideMenu (5.0.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - ESTabBarController-swift
+  - FaveButton
+  - IQKeyboardManagerSwift (= 6.0.4)
+  - NVActivityIndicatorView
+  - ReachabilitySwift
+  - SDWebImage
+  - SideMenu
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ESTabBarController-swift
+    - FaveButton
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - ReachabilitySwift
+    - SDWebImage
+    - SideMenu
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  FaveButton: c818ab3d04d22a7615e93f08c7b35932acb3f735
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 0aa1971143159f0acc9e3ab67a802d941cc4aa5b
+
+COCOAPODS: 1.6.1
