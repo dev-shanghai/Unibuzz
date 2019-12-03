@@ -1,11 +1,11 @@
 ///**
 /**
-Unibuzz
+UniversityBuzz
 Created by: dev shanghai on 10/07/2019
 
 (** AppDelegate.swift **)
-Al Anbar
-Copyright © 2019 Al Anbar. All rights reserved.
+dev shanghai
+Copyright © 2019 dev shanghai. All rights reserved.
 
 +-----------------------------------------------------+
 |                                                     |
@@ -87,7 +87,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegat
 	     application to it. This property is optional since there are legitimate
 	     error conditions that could cause the creation of the store to fail.
 	    */
-	    let container = NSPersistentContainer(name: "Unibuzz")
+	    let container = NSPersistentContainer(name: "UniversityBuzz")
 	    container.loadPersistentStores(completionHandler: { (storeDescription, error) in
 	        if let error = error as NSError? {
 	            // Replace this implementation with code to handle the error appropriately.

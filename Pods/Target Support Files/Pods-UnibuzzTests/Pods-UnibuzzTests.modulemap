@@ -1,5 +1,5 @@
-framework module Pods_UnibuzzTests {
-  umbrella header "Pods-UnibuzzTests-umbrella.h"
+framework module Pods_UniversityBuzzTests {
+  umbrella header "Pods-UniversityBuzzTests-umbrella.h"
 
   export *
   module * { export * }

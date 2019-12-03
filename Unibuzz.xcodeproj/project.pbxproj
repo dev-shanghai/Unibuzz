@@ -17,6 +17,7 @@
 		FD4308DE22D5B4A10057524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4308DC22D5B4A10057524F /* LaunchScreen.storyboard */; };
 		FD4308E922D5B4A10057524F /* UnibuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4308E822D5B4A10057524F /* UnibuzzTests.swift */; };
 		FD4308F422D5B4A10057524F /* UnibuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4308F322D5B4A10057524F /* UnibuzzUITests.swift */; };
+		FD5BD491239669F300EFA544 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FD5BD490239669F300EFA544 /* README.md */; };
 		FD6F437422D9AF2D00DFD70D /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F437322D9AF2D00DFD70D /* Designable.swift */; };
 		FDC40EE022D5D05B00B43B5C /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC40EDF22D5D05B00B43B5C /* SideMenuVC.swift */; };
 		FDC40EE222D5D06A00B43B5C /* SideMenuCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC40EE122D5D06A00B43B5C /* SideMenuCC.swift */; };
@@ -84,6 +85,7 @@
 		FD4308EF22D5B4A10057524F /* UnibuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnibuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4308F322D5B4A10057524F /* UnibuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnibuzzUITests.swift; sourceTree = "<group>"; };
 		FD4308F522D5B4A10057524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5BD490239669F300EFA544 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FD6F437322D9AF2D00DFD70D /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
 		FDC40EDF22D5D05B00B43B5C /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		FDC40EE122D5D06A00B43B5C /* SideMenuCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCC.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		FD4308C422D5B49F0057524F = {
 			isa = PBXGroup;
 			children = (
+				FD5BD490239669F300EFA544 /* README.md */,
 				FD4308CF22D5B49F0057524F /* Unibuzz */,
 				FD4308E722D5B4A10057524F /* UnibuzzTests */,
 				FD4308F222D5B4A10057524F /* UnibuzzUITests */,
@@ -491,6 +494,7 @@
 				FDC40F0E22D6120E00B43B5C /* HomeCC.xib in Resources */,
 				FD4308DE22D5B4A10057524F /* LaunchScreen.storyboard in Resources */,
 				FDC40EF522D5EDEF00B43B5C /* MenuHeader.xib in Resources */,
+				FD5BD491239669F300EFA544 /* README.md in Resources */,
 				FDC40EFC22D5FCA300B43B5C /* MenuCell.xib in Resources */,
 				FD4308DB22D5B4A10057524F /* Assets.xcassets in Resources */,
 				FD4308D622D5B49F0057524F /* Main.storyboard in Resources */,

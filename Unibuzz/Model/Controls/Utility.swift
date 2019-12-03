@@ -1,11 +1,11 @@
 ///**
 /**
-Unibuzz
+UniversityBuzz
 Created by: dev shanghai on 10/07/2019
 
 (** Utility.swift **)
-Al Anbar
-Copyright © 2019 Al Anbar. All rights reserved.
+dev shanghai
+Copyright © 2019 dev shanghai. All rights reserved.
 
 +-----------------------------------------------------+
 |                                                     |
@@ -81,7 +81,7 @@ class Utility {
 	}
 
 
-	static func showAlert(title:String = "Unibuzz", message:String, buttonTitles:[String], completion: @escaping (_ responce: String) -> Void) {
+	static func showAlert(title:String = "UniversityBuzz", message:String, buttonTitles:[String], completion: @escaping (_ responce: String) -> Void) {
 
 		let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
 

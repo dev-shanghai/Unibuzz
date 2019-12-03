@@ -1,11 +1,11 @@
 ///**
 /**
-UnibuzzUITests
+UniversityBuzzUITests
 Created by: dev shanghai on 10/07/2019
 
-(** UnibuzzUITests.swift **)
-Al Anbar
-Copyright © 2019 Al Anbar. All rights reserved.
+(** UniversityBuzzUITests.swift **)
+dev shanghai
+Copyright © 2019 dev shanghai. All rights reserved.
 
 +-----------------------------------------------------+
 |                                                     |
@@ -17,7 +17,7 @@ Copyright © 2019 Al Anbar. All rights reserved.
 
 import XCTest
 
-class UnibuzzUITests: XCTestCase {
+class UniversityBuzzUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

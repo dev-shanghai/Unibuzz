@@ -26,22 +26,22 @@ pod 'FaveButton'
 end
 
 
-target 'Unibuzz' do
+target 'UniversityBuzz' do
 	# Comment the next line if you're not using Swift and, don't want to use dynamic frameworks.
 
-	# Pods for Unibuzz
+	# Pods for UniversityBuzz
 	myPods
 
 end
 
-  # Pods for Unibuzz
+  # Pods for UniversityBuzz
 
-  target 'UnibuzzTests' do
+  target 'UniversityBuzzTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'UnibuzzUITests' do
+  target 'UniversityBuzzUITests' do
     inherit! :search_paths
     # Pods for testing
   end

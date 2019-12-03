@@ -1,11 +1,11 @@
 ///**
 /**
-Unibuzz
+UniversityBuzz
 Created by: dev shanghai on 10/07/2019
 
 (** SideMenuVC.swift **)
-Al Anbar
-Copyright © 2019 Al Anbar. All rights reserved.
+dev shanghai
+Copyright © 2019 dev shanghai. All rights reserved.
 
 +-----------------------------------------------------+
 |                                                     |
