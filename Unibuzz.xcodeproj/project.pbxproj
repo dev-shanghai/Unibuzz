@@ -202,7 +202,6 @@
 				FD4308D422D5B49F0057524F /* Main.storyboard */,
 				FD4308DA22D5B4A10057524F /* Assets.xcassets */,
 				FD4308DC22D5B4A10057524F /* LaunchScreen.storyboard */,
-				FD4308DF22D5B4A10057524F /* Info.plist */,
 				FD4308D722D5B49F0057524F /* Unibuzz.xcdatamodeld */,
 			);
 			path = Unibuzz;
@@ -285,6 +284,7 @@
 		FDC40EDC22D5CFE500B43B5C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FD4308DF22D5B4A10057524F /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
